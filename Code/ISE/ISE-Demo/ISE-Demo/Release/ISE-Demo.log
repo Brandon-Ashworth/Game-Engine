@@ -1,0 +1,249 @@
+﻿Build started 5/06/2014 11:04:24 AM.
+     1>Project "E:\ICT311\groups\group1-Brandon-Umar-Welsley\assignment2\Code\ISE\ISE-Demo\ISE-Demo\ISE-Demo.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\ISE-Demo.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"E:\ICT311\groups\group1-Brandon-Umar-Welsley\assignment2\Code\ISE\ISE-Demo\\ThirdParty\assimp\include" /I"E:\ICT311\groups\group1-Brandon-Umar-Welsley\assignment2\Code\ISE\ISE-Demo\\ThirdParty\SFML-2.1\include" /I"E:\ICT311\groups\group1-Brandon-Umar-Welsley\assignment2\Code\ISE\ISE-Demo\\ThirdParty\lua5.1\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt AI.cpp Animation.cpp AssetMng.cpp Camera.cpp Clock.cpp Effect.cpp GameObject.cpp GameObjectFactory.cpp gameScript.cpp HUD.cpp Input.cpp ISE.cpp Loaderab.cpp Main.cpp Object2D.cpp Object3D.cpp objLoader.cpp OPENGL_Facade.cpp Render.cpp RenderEngine.cpp SFML_Clock.cpp SFML_Facade.cpp SFML_Input.cpp SFML_Sound.cpp SFML_Texture.cpp Skybox.cpp Sound.cpp SoundEngine.cpp Texture.cpp Window.cpp
+         AI.cpp
+     1>AI.cpp(15): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>AI.cpp(129): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>AI.cpp(130): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         Animation.cpp
+     1>Animation.cpp(39): warning C4018: '<' : signed/unsigned mismatch
+         AssetMng.cpp
+     1>AssetMng.cpp(134): warning C4172: returning address of local variable or temporary
+         Camera.cpp
+     1>Camera.cpp(32): warning C4305: '=' : truncation from 'double' to 'float'
+     1>Camera.cpp(219): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>Camera.cpp(254): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>Camera.cpp(417): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Camera.cpp(417): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Camera.cpp(417): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Camera.cpp(417): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         Clock.cpp
+         Effect.cpp
+     1>Effect.cpp(116): warning C4482: nonstandard extension used: enum 'Axis' used in qualified name
+     1>Effect.cpp(120): warning C4482: nonstandard extension used: enum 'Axis' used in qualified name
+     1>Effect.cpp(124): warning C4482: nonstandard extension used: enum 'Axis' used in qualified name
+         GameObject.cpp
+         GameObjectFactory.cpp
+         gameScript.cpp
+         HUD.cpp
+     1>HUD.cpp(119): warning C4482: nonstandard extension used: enum 'Axis' used in qualified name
+     1>HUD.cpp(123): warning C4482: nonstandard extension used: enum 'Axis' used in qualified name
+     1>HUD.cpp(127): warning C4482: nonstandard extension used: enum 'Axis' used in qualified name
+         Input.cpp
+         ISE.cpp
+     1>ISE.cpp(9): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>ISE.cpp(9): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>ISE.cpp(10): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>ISE.cpp(10): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>ISE.cpp(22): warning C4305: '=' : truncation from 'double' to 'float'
+     1>ISE.cpp(50): warning C4018: '<' : signed/unsigned mismatch
+     1>ISE.cpp(155): warning C4482: nonstandard extension used: enum 'Axis' used in qualified name
+     1>ISE.cpp(156): warning C4482: nonstandard extension used: enum 'Axis' used in qualified name
+     1>ISE.cpp(157): warning C4482: nonstandard extension used: enum 'Axis' used in qualified name
+     1>ISE.cpp(196): warning C4482: nonstandard extension used: enum 'Axis' used in qualified name
+     1>ISE.cpp(197): warning C4482: nonstandard extension used: enum 'Axis' used in qualified name
+     1>ISE.cpp(198): warning C4482: nonstandard extension used: enum 'Axis' used in qualified name
+     1>ISE.cpp(322): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>ISE.cpp(323): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>ISE.cpp(324): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>ISE.cpp(325): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>ISE.cpp(347): warning C4018: '<' : signed/unsigned mismatch
+     1>ISE.cpp(355): warning C4482: nonstandard extension used: enum 'Axis' used in qualified name
+     1>ISE.cpp(356): warning C4482: nonstandard extension used: enum 'Axis' used in qualified name
+     1>ISE.cpp(357): warning C4482: nonstandard extension used: enum 'Axis' used in qualified name
+     1>ISE.cpp(390): warning C4482: nonstandard extension used: enum 'Axis' used in qualified name
+     1>ISE.cpp(401): warning C4482: nonstandard extension used: enum 'Axis' used in qualified name
+     1>ISE.cpp(412): warning C4482: nonstandard extension used: enum 'Axis' used in qualified name
+     1>ISE.cpp(413): warning C4482: nonstandard extension used: enum 'Axis' used in qualified name
+     1>ISE.cpp(424): warning C4482: nonstandard extension used: enum 'Axis' used in qualified name
+     1>ISE.cpp(435): warning C4482: nonstandard extension used: enum 'Axis' used in qualified name
+     1>ISE.cpp(436): warning C4482: nonstandard extension used: enum 'Axis' used in qualified name
+         Loaderab.cpp
+         Main.cpp
+     1>Main.cpp(34): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Main.cpp(34): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         Object2D.cpp
+     1>Object2D.cpp(116): warning C4482: nonstandard extension used: enum 'Axis' used in qualified name
+     1>Object2D.cpp(120): warning C4482: nonstandard extension used: enum 'Axis' used in qualified name
+     1>Object2D.cpp(124): warning C4482: nonstandard extension used: enum 'Axis' used in qualified name
+         Object3D.cpp
+     1>Object3D.cpp(119): warning C4482: nonstandard extension used: enum 'Axis' used in qualified name
+     1>Object3D.cpp(123): warning C4482: nonstandard extension used: enum 'Axis' used in qualified name
+     1>Object3D.cpp(127): warning C4482: nonstandard extension used: enum 'Axis' used in qualified name
+         objLoader.cpp
+         OPENGL_Facade.cpp
+         Render.cpp
+         RenderEngine.cpp
+         Compiling...
+         SFML_Clock.cpp
+     1>SFML_Clock.cpp(17): warning C4244: 'return' : conversion from 'sf::Int32' to 'float', possible loss of data
+         SFML_Facade.cpp
+         SFML_Input.cpp
+         SFML_Sound.cpp
+     1>SFML_Sound.cpp(73): warning C4800: 'float' : forcing value to bool 'true' or 'false' (performance warning)
+         SFML_Texture.cpp
+         Skybox.cpp
+     1>Skybox.cpp(32): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(32): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(32): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(33): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(33): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(33): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(34): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(34): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(34): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(36): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(36): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(36): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(37): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(37): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(37): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(38): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(38): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(38): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(76): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(77): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(78): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(80): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(81): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(82): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(84): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(85): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(86): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(90): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(91): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(92): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(94): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(95): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(96): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(98): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(99): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(100): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(128): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(129): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(130): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(132): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(133): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(134): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(136): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(137): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(138): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(142): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(143): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(144): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(146): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(147): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(148): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(150): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(151): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(152): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(180): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(181): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(182): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(184): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(185): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(186): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(188): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(189): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(190): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(194): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(195): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(196): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(198): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(199): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(200): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(202): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(203): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(204): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(232): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(233): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(234): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(236): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(237): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(238): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(240): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(241): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(242): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(246): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(247): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(248): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(250): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(251): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(252): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(254): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(255): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(256): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(284): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(285): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(286): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(288): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(289): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(290): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(292): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(293): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(294): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(298): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(299): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(300): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(302): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(303): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(304): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(306): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(307): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Skybox.cpp(308): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         Sound.cpp
+         SoundEngine.cpp
+         Texture.cpp
+         Window.cpp
+     1>Window.cpp(27): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Window.cpp(27): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>Window.cpp(52): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>Window.cpp(57): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\ICT311\groups\group1-Brandon-Umar-Welsley\assignment2\Code\ISE\ISE-Demo\Release\ISE-Demo.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"E:\ICT311\groups\group1-Brandon-Umar-Welsley\assignment2\Code\ISE\ISE-Demo\\ThirdParty\assimp\lib\assimp_release-dll_win32" /LIBPATH:"E:\ICT311\groups\group1-Brandon-Umar-Welsley\assignment2\Code\ISE\ISE-Demo\\ThirdParty\SFML-2.1\lib" /LIBPATH:"E:\ICT311\groups\group1-Brandon-Umar-Welsley\assignment2\Code\ISE\ISE-Demo\\ThirdParty\lua5.1\lib" "sfml-graphics.lib" "sfml-window.lib" "sfml-system.lib" "sfml-audio.lib" opengl32.lib glu32.lib assimp.lib lua5.1.lib luabindd.lib lua51.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\ISE-Demo.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\ICT311\groups\group1-Brandon-Umar-Welsley\assignment2\Code\ISE\ISE-Demo\Release\ISE-Demo.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\ICT311\groups\group1-Brandon-Umar-Welsley\assignment2\Code\ISE\ISE-Demo\Release\ISE-Demo.lib" /MACHINE:X86 Release\AI.obj
+         Release\Animation.obj
+         Release\AssetMng.obj
+         Release\Camera.obj
+         Release\Clock.obj
+         Release\Effect.obj
+         Release\GameObject.obj
+         Release\GameObjectFactory.obj
+         Release\gameScript.obj
+         Release\HUD.obj
+         Release\Input.obj
+         Release\ISE.obj
+         Release\Loaderab.obj
+         Release\Main.obj
+         Release\Object2D.obj
+         Release\Object3D.obj
+         Release\objLoader.obj
+         Release\OPENGL_Facade.obj
+         Release\Render.obj
+         Release\RenderEngine.obj
+         Release\SFML_Clock.obj
+         Release\SFML_Facade.obj
+         Release\SFML_Input.obj
+         Release\SFML_Sound.obj
+         Release\SFML_Texture.obj
+         Release\Skybox.obj
+         Release\Sound.obj
+         Release\SoundEngine.obj
+         Release\Texture.obj
+         Release\Window.obj
+         Generating code
+     1>e:\ict311\groups\group1-brandon-umar-welsley\assignment2\code\ise\ise-demo\ise-demo\gameobjectfactory.cpp(29): warning C4715: 'GameObjectFactory::Create' : not all control paths return a value
+         Finished generating code
+         ISE-Demo.vcxproj -> E:\ICT311\groups\group1-Brandon-Umar-Welsley\assignment2\Code\ISE\ISE-Demo\Release\ISE-Demo.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\ICT311\groups\group1-Brandon-Umar-Welsley\assignment2\Code\ISE\ISE-Demo\Release\ISE-Demo.exe;#1" /manifest "Release\ISE-Demo.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Release\ISE-Demo.unsuccessfulbuild".
+         Touching "Release\ISE-Demo.lastbuildstate".
+     1>Done Building Project "E:\ICT311\groups\group1-Brandon-Umar-Welsley\assignment2\Code\ISE\ISE-Demo\ISE-Demo\ISE-Demo.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:22.34

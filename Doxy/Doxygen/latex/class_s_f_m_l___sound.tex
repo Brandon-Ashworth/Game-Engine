@@ -1,0 +1,182 @@
+\hypertarget{class_s_f_m_l___sound}{\section{S\-F\-M\-L\-\_\-\-Sound Class Reference}
+\label{class_s_f_m_l___sound}\index{S\-F\-M\-L\-\_\-\-Sound@{S\-F\-M\-L\-\_\-\-Sound}}
+}
+
+
+\hyperlink{class_sound}{Sound} facade.  
+
+
+
+
+{\ttfamily \#include $<$S\-F\-M\-L\-\_\-\-Sound.\-h$>$}
+
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum {\bfseries Sound} \{ {\bfseries S\-\_\-\-L\-O\-O\-P} = 0, 
+{\bfseries S\-\_\-\-N\-O\-T\-L\-O\-O\-P}
+ \}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_s_f_m_l___sound_ad25ea7350ad3d52336a4f29967998846}{\hyperlink{class_s_f_m_l___sound_ad25ea7350ad3d52336a4f29967998846}{S\-F\-M\-L\-\_\-\-Sound} (void)}\label{class_s_f_m_l___sound_ad25ea7350ad3d52336a4f29967998846}
+
+\begin{DoxyCompactList}\small\item\em The sound constructor. \end{DoxyCompactList}\item 
+bool \hyperlink{class_s_f_m_l___sound_acbb70e0ad150f26d962cd202828c5015}{load} (std\-::string location)
+\begin{DoxyCompactList}\small\item\em loads sound into ram \end{DoxyCompactList}\item 
+void \hyperlink{class_s_f_m_l___sound_ad2ce65b43e50b4ee07142a5cd0030b13}{play} ()
+\begin{DoxyCompactList}\small\item\em Plays the sound. \end{DoxyCompactList}\item 
+void \hyperlink{class_s_f_m_l___sound_a9937189f0ec8103ba7c9c3137afc79e4}{play} (bool loop)
+\begin{DoxyCompactList}\small\item\em Loops the sound. \end{DoxyCompactList}\item 
+void \hyperlink{class_s_f_m_l___sound_a7992bbbb07d74878f90a98533cbb8227}{pause} ()
+\begin{DoxyCompactList}\small\item\em Puause the music. \end{DoxyCompactList}\item 
+void \hyperlink{class_s_f_m_l___sound_a81836a7fde08471abee15d721db9aa91}{stop} ()
+\begin{DoxyCompactList}\small\item\em stops th esound \end{DoxyCompactList}\item 
+void \hyperlink{class_s_f_m_l___sound_abfe2b24292b79a9470c18a756b85f199}{set\-Volume} (float volume)
+\begin{DoxyCompactList}\small\item\em Sets Volume. \end{DoxyCompactList}\item 
+float \hyperlink{class_s_f_m_l___sound_accd380790e782ca31dd500ee46ae9655}{get\-Volume} ()
+\begin{DoxyCompactList}\small\item\em Get volume. \end{DoxyCompactList}\item 
+bool \hyperlink{class_s_f_m_l___sound_a1ab8a92ff7cf9c2579a4a7bf8c5078de}{get\-Loop} ()
+\begin{DoxyCompactList}\small\item\em Get the loop. \end{DoxyCompactList}\item 
+\hypertarget{class_s_f_m_l___sound_a875b5e757c755b48b3366d90b1f9163e}{void {\bfseries set\-Loop} (bool loop)}\label{class_s_f_m_l___sound_a875b5e757c755b48b3366d90b1f9163e}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{class_sound}{Sound} facade. 
+
+This is the layer between S\-F\-M\-L and our interface (equivalant class) \begin{DoxyReturn}{Returns}
+Used for all the main sound processing 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Author}
+Umar Badat 
+\end{DoxyAuthor}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_s_f_m_l___sound_a1ab8a92ff7cf9c2579a4a7bf8c5078de}{\index{S\-F\-M\-L\-\_\-\-Sound@{S\-F\-M\-L\-\_\-\-Sound}!get\-Loop@{get\-Loop}}
+\index{get\-Loop@{get\-Loop}!SFML_Sound@{S\-F\-M\-L\-\_\-\-Sound}}
+\subsubsection[{get\-Loop}]{\setlength{\rightskip}{0pt plus 5cm}bool S\-F\-M\-L\-\_\-\-Sound\-::get\-Loop (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_s_f_m_l___sound_a1ab8a92ff7cf9c2579a4a7bf8c5078de}
+
+
+Get the loop. 
+
+retrives the value of if the sound is looping or now \begin{DoxyReturn}{Returns}
+bool, return true if the function is looping 
+\end{DoxyReturn}
+\hypertarget{class_s_f_m_l___sound_accd380790e782ca31dd500ee46ae9655}{\index{S\-F\-M\-L\-\_\-\-Sound@{S\-F\-M\-L\-\_\-\-Sound}!get\-Volume@{get\-Volume}}
+\index{get\-Volume@{get\-Volume}!SFML_Sound@{S\-F\-M\-L\-\_\-\-Sound}}
+\subsubsection[{get\-Volume}]{\setlength{\rightskip}{0pt plus 5cm}float S\-F\-M\-L\-\_\-\-Sound\-::get\-Volume (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_s_f_m_l___sound_accd380790e782ca31dd500ee46ae9655}
+
+
+Get volume. 
+
+Get the volume of the sound \begin{DoxyReturn}{Returns}
+float, returns a float representing the current volume 
+\end{DoxyReturn}
+\hypertarget{class_s_f_m_l___sound_acbb70e0ad150f26d962cd202828c5015}{\index{S\-F\-M\-L\-\_\-\-Sound@{S\-F\-M\-L\-\_\-\-Sound}!load@{load}}
+\index{load@{load}!SFML_Sound@{S\-F\-M\-L\-\_\-\-Sound}}
+\subsubsection[{load}]{\setlength{\rightskip}{0pt plus 5cm}bool S\-F\-M\-L\-\_\-\-Sound\-::load (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{location}
+\end{DoxyParamCaption}
+)}}\label{class_s_f_m_l___sound_acbb70e0ad150f26d962cd202828c5015}
+
+
+loads sound into ram 
+
+This function loads the sound into ram so it can be manipulated
+
+
+\begin{DoxyParams}{Parameters}
+{\em location} & The location of the sound file \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if the program loaded the sound file 
+\end{DoxyReturn}
+\hypertarget{class_s_f_m_l___sound_a7992bbbb07d74878f90a98533cbb8227}{\index{S\-F\-M\-L\-\_\-\-Sound@{S\-F\-M\-L\-\_\-\-Sound}!pause@{pause}}
+\index{pause@{pause}!SFML_Sound@{S\-F\-M\-L\-\_\-\-Sound}}
+\subsubsection[{pause}]{\setlength{\rightskip}{0pt plus 5cm}void S\-F\-M\-L\-\_\-\-Sound\-::pause (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_s_f_m_l___sound_a7992bbbb07d74878f90a98533cbb8227}
+
+
+Puause the music. 
+
+Pauses the sound currently playing \hypertarget{class_s_f_m_l___sound_ad2ce65b43e50b4ee07142a5cd0030b13}{\index{S\-F\-M\-L\-\_\-\-Sound@{S\-F\-M\-L\-\_\-\-Sound}!play@{play}}
+\index{play@{play}!SFML_Sound@{S\-F\-M\-L\-\_\-\-Sound}}
+\subsubsection[{play}]{\setlength{\rightskip}{0pt plus 5cm}void S\-F\-M\-L\-\_\-\-Sound\-::play (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_s_f_m_l___sound_ad2ce65b43e50b4ee07142a5cd0030b13}
+
+
+Plays the sound. 
+
+Plays the sound only once \hypertarget{class_s_f_m_l___sound_a9937189f0ec8103ba7c9c3137afc79e4}{\index{S\-F\-M\-L\-\_\-\-Sound@{S\-F\-M\-L\-\_\-\-Sound}!play@{play}}
+\index{play@{play}!SFML_Sound@{S\-F\-M\-L\-\_\-\-Sound}}
+\subsubsection[{play}]{\setlength{\rightskip}{0pt plus 5cm}void S\-F\-M\-L\-\_\-\-Sound\-::play (
+\begin{DoxyParamCaption}
+\item[{bool}]{loop}
+\end{DoxyParamCaption}
+)}}\label{class_s_f_m_l___sound_a9937189f0ec8103ba7c9c3137afc79e4}
+
+
+Loops the sound. 
+
+Plays the sound until the user pauses or stops it
+
+
+\begin{DoxyParams}{Parameters}
+{\em loop} & true if you want it to loop \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_s_f_m_l___sound_abfe2b24292b79a9470c18a756b85f199}{\index{S\-F\-M\-L\-\_\-\-Sound@{S\-F\-M\-L\-\_\-\-Sound}!set\-Volume@{set\-Volume}}
+\index{set\-Volume@{set\-Volume}!SFML_Sound@{S\-F\-M\-L\-\_\-\-Sound}}
+\subsubsection[{set\-Volume}]{\setlength{\rightskip}{0pt plus 5cm}void S\-F\-M\-L\-\_\-\-Sound\-::set\-Volume (
+\begin{DoxyParamCaption}
+\item[{float}]{volume}
+\end{DoxyParamCaption}
+)}}\label{class_s_f_m_l___sound_abfe2b24292b79a9470c18a756b85f199}
+
+
+Sets Volume. 
+
+Sets The volume of the sound can't be above 100 or below 0
+
+
+\begin{DoxyParams}{Parameters}
+{\em float} & the new volume value \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_s_f_m_l___sound_a81836a7fde08471abee15d721db9aa91}{\index{S\-F\-M\-L\-\_\-\-Sound@{S\-F\-M\-L\-\_\-\-Sound}!stop@{stop}}
+\index{stop@{stop}!SFML_Sound@{S\-F\-M\-L\-\_\-\-Sound}}
+\subsubsection[{stop}]{\setlength{\rightskip}{0pt plus 5cm}void S\-F\-M\-L\-\_\-\-Sound\-::stop (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_s_f_m_l___sound_a81836a7fde08471abee15d721db9aa91}
+
+
+stops th esound 
+
+Stops the sound currently being player 
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+F\-:/3 add the skybox now/\-Code/\-I\-S\-E/\-I\-S\-E-\/\-Demo/\-I\-S\-E-\/\-Demo/S\-F\-M\-L\-\_\-\-Sound.\-h\item 
+F\-:/3 add the skybox now/\-Code/\-I\-S\-E/\-I\-S\-E-\/\-Demo/\-I\-S\-E-\/\-Demo/S\-F\-M\-L\-\_\-\-Sound.\-cpp\end{DoxyCompactItemize}

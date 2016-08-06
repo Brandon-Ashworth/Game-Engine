@@ -1,0 +1,124 @@
+\hypertarget{class_sound_engine}{\section{Sound\-Engine Class Reference}
+\label{class_sound_engine}\index{Sound\-Engine@{Sound\-Engine}}
+}
+
+
+The controller for the sound engine.  
+
+
+
+
+{\ttfamily \#include $<$Sound\-Engine.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_sound_engine_ada066ddf9c7727d32f4f1a429af2ac77}{\hyperlink{class_sound_engine_ada066ddf9c7727d32f4f1a429af2ac77}{Sound\-Engine} (void)}\label{class_sound_engine_ada066ddf9c7727d32f4f1a429af2ac77}
+
+\begin{DoxyCompactList}\small\item\em Constructors that don't do anythiing. \end{DoxyCompactList}\item 
+\hypertarget{class_sound_engine_a05f462b806e47d0acd838a3747dcf53c}{\hyperlink{class_sound_engine_a05f462b806e47d0acd838a3747dcf53c}{$\sim$\-Sound\-Engine} (void)}\label{class_sound_engine_a05f462b806e47d0acd838a3747dcf53c}
+
+\begin{DoxyCompactList}\small\item\em destructors that don't do anything (they don't need to) \end{DoxyCompactList}\item 
+void \hyperlink{class_sound_engine_ae0b1261fe57dd282936bf0f88e1b18ee}{play\-Once} (\hyperlink{class_sound}{Sound} \&sound)
+\begin{DoxyCompactList}\small\item\em the sound object sent in is played once \end{DoxyCompactList}\item 
+void \hyperlink{class_sound_engine_a216a033d09a764f4540cea6512e9a849}{play\-With\-Loop} (\hyperlink{class_sound}{Sound} \&sound)
+\begin{DoxyCompactList}\small\item\em loop the sound \end{DoxyCompactList}\item 
+void \hyperlink{class_sound_engine_a634a55a02262a4e79d91925b041481c9}{set\-Volume} (\hyperlink{class_sound}{Sound} \&sound, float volume)
+\begin{DoxyCompactList}\small\item\em sets volume \end{DoxyCompactList}\item 
+float \hyperlink{class_sound_engine_a89164ba6a937b744e2402f27dbe2eb6f}{get\-Volume} (\hyperlink{class_sound}{Sound} \&sound)
+\begin{DoxyCompactList}\small\item\em get volume \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The controller for the sound engine. 
+
+The user takes sound data structures and sends them here to be processed \begin{DoxyAuthor}{Author}
+Umar Badat 
+\end{DoxyAuthor}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_sound_engine_a89164ba6a937b744e2402f27dbe2eb6f}{\index{Sound\-Engine@{Sound\-Engine}!get\-Volume@{get\-Volume}}
+\index{get\-Volume@{get\-Volume}!SoundEngine@{Sound\-Engine}}
+\subsubsection[{get\-Volume}]{\setlength{\rightskip}{0pt plus 5cm}float Sound\-Engine\-::get\-Volume (
+\begin{DoxyParamCaption}
+\item[{{\bf Sound} \&}]{sound}
+\end{DoxyParamCaption}
+)}}\label{class_sound_engine_a89164ba6a937b744e2402f27dbe2eb6f}
+
+
+get volume 
+
+Gets the volume of the sound object you sent in
+
+
+\begin{DoxyParams}{Parameters}
+{\em sound} & \hyperlink{class_sound}{Sound} object to find the volume of \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+float representing the volume of the sound object 
+\end{DoxyReturn}
+\hypertarget{class_sound_engine_ae0b1261fe57dd282936bf0f88e1b18ee}{\index{Sound\-Engine@{Sound\-Engine}!play\-Once@{play\-Once}}
+\index{play\-Once@{play\-Once}!SoundEngine@{Sound\-Engine}}
+\subsubsection[{play\-Once}]{\setlength{\rightskip}{0pt plus 5cm}void Sound\-Engine\-::play\-Once (
+\begin{DoxyParamCaption}
+\item[{{\bf Sound} \&}]{sound}
+\end{DoxyParamCaption}
+)}}\label{class_sound_engine_ae0b1261fe57dd282936bf0f88e1b18ee}
+
+
+the sound object sent in is played once 
+
+The user sends in the sound object and it is played once
+
+
+\begin{DoxyParams}{Parameters}
+{\em sound} & the object containing the sound \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_sound_engine_a216a033d09a764f4540cea6512e9a849}{\index{Sound\-Engine@{Sound\-Engine}!play\-With\-Loop@{play\-With\-Loop}}
+\index{play\-With\-Loop@{play\-With\-Loop}!SoundEngine@{Sound\-Engine}}
+\subsubsection[{play\-With\-Loop}]{\setlength{\rightskip}{0pt plus 5cm}void Sound\-Engine\-::play\-With\-Loop (
+\begin{DoxyParamCaption}
+\item[{{\bf Sound} \&}]{sound}
+\end{DoxyParamCaption}
+)}}\label{class_sound_engine_a216a033d09a764f4540cea6512e9a849}
+
+
+loop the sound 
+
+The sound object sent here will play and loop till a pause or stop command is called
+
+
+\begin{DoxyParams}{Parameters}
+{\em sound} & the object containing a sound, see \hyperlink{class_sound}{Sound} class for more details \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_sound_engine_a634a55a02262a4e79d91925b041481c9}{\index{Sound\-Engine@{Sound\-Engine}!set\-Volume@{set\-Volume}}
+\index{set\-Volume@{set\-Volume}!SoundEngine@{Sound\-Engine}}
+\subsubsection[{set\-Volume}]{\setlength{\rightskip}{0pt plus 5cm}void Sound\-Engine\-::set\-Volume (
+\begin{DoxyParamCaption}
+\item[{{\bf Sound} \&}]{sound, }
+\item[{float}]{volume}
+\end{DoxyParamCaption}
+)}}\label{class_sound_engine_a634a55a02262a4e79d91925b041481c9}
+
+
+sets volume 
+
+sets the volume of the object you sent in
+
+
+\begin{DoxyParams}{Parameters}
+{\em sound} & sound object to volume adjust \\
+\hline
+{\em volume} & the volume number to change it to, it can range from 0 to 100 (float) and wil be set to 0 or 100 if found outside the range \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+F\-:/3 add the skybox now/\-Code/\-I\-S\-E/\-I\-S\-E-\/\-Demo/\-I\-S\-E-\/\-Demo/Sound\-Engine.\-h\item 
+F\-:/3 add the skybox now/\-Code/\-I\-S\-E/\-I\-S\-E-\/\-Demo/\-I\-S\-E-\/\-Demo/Sound\-Engine.\-cpp\end{DoxyCompactItemize}
